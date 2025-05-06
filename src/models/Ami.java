@@ -1,4 +1,4 @@
-package model;
+package models;
 
 public class Ami {
     private final String nom;
@@ -7,10 +7,6 @@ public class Ami {
     public Ami(String nom, int limiteBieres) {
         this.nom = nom;
         this.limiteBieres = limiteBieres;
-    }
-
-    public String getNom() {
-        return nom;
     }
 
     public void boitUneBiere() {
