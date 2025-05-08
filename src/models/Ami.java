@@ -9,6 +9,14 @@ public class Ami {
         this.limiteBieres = limiteBieres;
     }
 
+    public String getNom() {
+        return nom;
+    }
+
+    public int getLimiteBieres() {
+        return limiteBieres;
+    }
+
     public void boitUneBiere() {
         if (limiteBieres == 0) {
             System.out.println(nom + " est déjà saoul et ne peut plus boire.");
